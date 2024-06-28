@@ -1,0 +1,515 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Popover -->
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
+    <!-- Tooltip -->
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- Title -->
+    <title> Manchester United </title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="assets/icons/Manchester-United-icon.png" type="image/x-icon">
+</head>
+
+<body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+
+    <!-- Navigation bar -->
+    <nav id="website-navbar" class="navbar navbar-expand-md sticky-top">
+        <a href="" class="navbar-brand">
+            <img src="assets/icons/Manchester-United-icon.png" alt="">
+        </a>
+        <div class="navbar-content" style>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#title-text" class="nav-link">
+                            Top of Page
+                        </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#main-picture" class="nav-link">
+                            Highlights
+                        </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tour" class="nav-link">
+                            Tours
+                        </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            Others
+                        </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#most-app" class="dropdown-item">Most Appearance</a>
+                        <a href="#club-anthem" class="dropdown-item">Club Anthem</a>
+                        <a href="#honour" class="dropdown-item">Honours</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <!-- Title -->
+        <div class="row" id="title-text">
+            <div class="col-md-12">
+                <br>
+                <!-- Title Jumbotron -->
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col pt-5">
+                            <h1 class="display-4">
+                                Welcome to <span class="badge badge-danger">Manchester United</span>
+                            </h1>
+                            <h4>
+                                The <span class="badge badge-danger badge-pill" style="padding-top: 2px; padding-bottom: 4px;"> theater of dreams </span>
+                            </h4>
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/icons/MUFC.png" alt="" height=200px>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Picture -->
+        <div class="row" id="main-picture">
+            <div class="col-md-12">
+                <div class="alert alert-info alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert"> &times; </button> <span class="badge-danger badge-pill">Login</span> or <span class="badge-info badge-pill">Sign Up</span> to get the latest news.
+                </div>
+
+                <div id="highlight-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel Items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/main_pic/main_pic_1.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Jadon in Home Shirt 2022/2023</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/main_pic/main_pic_2.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Home Shirt 2022/2023</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/main_pic/main_pic_3.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Training Kits</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#highlight-carousel" data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#highlight-carousel" data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                    </a>
+
+                    <!-- Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#highlight-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#highlight-carousel" data-slide-to="1"></li>
+                        <li data-target="#highlight-carousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Reads -->
+        <div class="row mt-5" id="recent-read">
+            <div class="col-md-12 section-header">
+                <h2>
+                    RECENT READS
+                </h2>
+
+                <div class="card-deck">
+                    <div class="card bg-dark">
+                        <img src="assets/recent_reads/training_pics.jpg" alt=" " class="card-img-top ">
+                        <div class="card-body ">
+                            <h4 class="card-title "> TRAINING HIGHLIGHTS:</h4>
+                            <p class="card-text ">
+                                5h | 5min read <br> See the players prepare for weekend games.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-dark">
+                        <img src="assets/recent_reads/old_trafford.jpg" alt=" " class="card-img-top ">
+                        <div class="card-body ">
+                            <h4 class="card-title "> UPGRADE TO FACILITY</h4>
+                            <p class="card-text ">
+                                16h | 2min read <br> A section of our club is upgrade as part of club improvement.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-dark">
+                        <img src="assets/recent_reads/women_team.jpg" alt=" " class="card-img-top ">
+                        <div class="card-body ">
+                            <h4 class="card-title "> WOMEN TEAM INTO CUP FINAL</h4>
+                            <p class="card-text ">
+                                2h | 3min <br> See our women team qualify to FA Cup final after beating Arsenal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Squad members -->
+        <div class="row mt-5" id="icons">
+            <div class="col-md-12 section-header">
+                <h2>SQUAD MEMBERS</h2>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>GOALKEEPERS</h4>
+                <a href="https://www.manutd.com/en/players-and-staff/First-Team">
+                    <img src="assets/squad_member/goalkeepers.png" alt="" style="width: 100px;" class="m-3">
+                </a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>DEFENDERS</h4>
+                <a href="https://www.manutd.com/en/players-and-staff/First-Team">
+                    <img src="assets/squad_member/defenders.png" alt="" style="width: 100px;" class="m-3">
+                </a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>MIDFIELDER</h4>
+                <a href="https://www.manutd.com/en/players-and-staff/First-Team">
+                    <img src="assets/squad_member/midfielders.png" alt="" style="width: 100px;" class="m-3">
+                </a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>FORWARD</h4>
+                <a href="https://www.manutd.com/en/players-and-staff/First-Team">
+                    <img src="assets/squad_member/forwards.png" alt="" style="width: 100px;" class="m-3">
+                </a>
+            </div>
+        </div>
+
+        <!-- Tour -->
+        <div class="row p-5" id="tour">
+            <div class="col-md-6 text-center p-4" style="background-image: url(assets/misc/anthem.jpg);">
+                <h2>VISIT THE MUSEUM</h2>
+                <a href="https://www.manutd.com/">
+                    <img src="assets/misc/old_trafford.jpg" alt="" style="width: 400; height: 300; border: 2px solid white;" class="p-3">
+                </a>
+            </div>
+            <div class="col-md-6 text-center p-4" style="background-image: url(assets/misc/anthem.jpg);">
+                <h2>OLD TRAFFORD</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9501.208834126774!2d-2.3088495604492167!3d53.46305889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae72e7e47f69%3A0x6c930e96df4455fe!2sOld%20Trafford!5e0!3m2!1sen!2ssg!4v1660164541300!5m2!1sen!2ssg"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Most Appearance -->
+        <div class="row py-3 " id="most-app">
+            <div class="col-md-12 section-header">
+                <h2>
+                    MOST APPEARANCES
+                </h2>
+                <table class="table table-bordered">
+                    <thead class="thead-dark ">
+                        <tr>
+                            <th> No. </th>
+                            <th class="w-50 "> Name</th>
+                            <th> Years</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td>
+                                <a href="#most-app" data-toggle="popover" data-container="body" data-content="Giggs is one of the most decorated footballers of all time. During his time at United, he won 13 Premier League winner's medals- more than any other player in history, four FA Cup winner's medals, three League Cup winner's medals, two UEFA Champions League winner's medals, a FIFA Club World Cup winners medal, an Intercontinental Cup winner's medal, a UEFA Super Cup winner's medal and nine FA Community Shield winner's medals."
+                                    data-placement="right" title="Ryan Giggs" data-trigger="hover">
+                                    Ryan Giggs
+                                </a>
+                            </td>
+                            <td>1991–2014</td>
+                            <td>963</td>
+                        </tr>
+                        <tr>
+                            <td> 2 </td>
+                            <td>
+                                <a href="#most-app" data-toggle="popover" data-container="body" data-content="Charlton was both Manchester United's and England's long-time record goalscorer, and United's long-time record appearance maker, as well as briefly England's, until Bobby Moore overtook his 106 caps in 1973."
+                                    data-placement="right" title="Bobby Charlton" data-trigger="hover">
+                                    Bobby Charlton
+                                </a>
+                            </td>
+                            <td>1956–1973</td>
+                            <td>758</td>
+                        </tr>
+                        <tr>
+                            <td> 3 </td>
+                            <td>
+                                <a href="#most-app" data-toggle="popover" data-container="body" data-content="He spent his entire professional playing career with Manchester United, for whom he scored over 150 goals in more than 700 appearances between 1993 and 2013. He is widely regarded as one of the best midfielders of his generation and one of the greatest Manchester United players of all time."
+                                    data-placement="right" title="Paul Scholes" data-trigger="hover">
+                                    Paul Scholes
+                                </a>
+                            </td>
+                            <td>1994–2011, 2012–2013
+                            </td>
+                            <td>718</td>
+                        </tr>
+                        <tr>
+                            <td> 4 </td>
+                            <td>
+                                <a href="#most-app" data-toggle="popover" data-container="body" data-content="He started in every single United game in the 1957–58, 1959–60 and 1964–65 seasons. He scored a total of 9 goals in his 18 seasons at United and helped the club win four First Division titles, one FA Cup and one European Cup. He was capped only once for England in 1955."
+                                    data-placement="right" title="Bill Foulkes" data-trigger="hover">
+                                    Bill Foulkes
+                                </a>
+                            </td>
+                            <td>1952–1970</td>
+                            <td>688</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Club Anthem Setup -->
+        <div class="row py-3" id="club-anthem">
+            <div class="col-md-12 section-header">
+                <h2>
+                    FAMOUS ANTHEMS OF OUR CLUB
+                </h2>
+            </div>
+            <div class="col-md-7 text-center">
+                <div id="anthem-accordion">
+
+                    <!-- 20 times champion -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#twenty-times-anthem-body">
+                                    <span style="color: white;">20 times!</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="twenty-times-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                            <p>20 times 20 times Man United</p>
+                            <p>20 times 20 times I say</p>
+                            <p>20 times 20 times Man United</p>
+                            <p>Playing Football The Matt Busby Way!</p>
+                        </div>
+                    </div>
+
+                    <!-- Matt Busby songs -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#matt-busby-anthem-body">
+                                    <span style="color: white;">We are the Busby Boys</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="matt-busby-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                            <p>Hello! Hello!</p>
+                            <p>We are the busby boys</p>
+                            <p>Hello! Hello!</p>
+                            <p>We are the busby boys</p>
+                            <p>And if you are a City fan surrender or you’ll die,</p>
+                            <p>We all follow United</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- We'll never die lyric -->
+            <div class="col-md-5 text-center">
+                <button type="button" class="btn btn-danger btn-lg never-die-btn" data-toggle="collapse" data-target="#never-die-body">
+                    WE'LL NEVER DIE
+                </button>
+                <div id="never-die-body" class="collapse" style="background-image: url(assets/misc/anthem.jpg); color: white;">
+                    <p>United’s flag is deepest red</p>
+                    <p>It shrouded all our Munich dead</p>
+                    <p>Before their limbs grew stiff and cold</p>
+                    <p>Their heart’s blood dyed it’s ev’ry fold</p>
+                    <p>Then raise United’s banner high</p>
+                    <p>Beneath it’s shade we’ll live and die</p>
+                    <p>So keep the faith and never fear</p>
+                    <br>
+                    <p>We’ll keep the Red Flag flying here</p>
+                    <p>We’ll never die, we’ll never die</p>
+                    <p>We’ll never die, we’ll never die</p>
+                    <p>We’ll keep the Red flag flying high</p>
+                    <p>‘Cos Man United will never die</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Club honour -->
+        <div class="row py-3" id="honour">
+
+            <!-- History Modals -->
+            <div class="history-modals">
+
+                <!-- Modal 1 -->
+                <div class="modal fade" id="modal-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Year Won</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>1907–08, 1910–11, 1951–52, 1955–56, 1956–57, 1964–65, 1966–67, 1992–93, 1993–94, 1995–96, 1996–97, 1998–99, 1999–2000, 2000–01, 2002–03, 2006–07, 2007–08, 2008–09, 2010–11, 2012–13</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 2 -->
+                <div class="modal fade" id="modal-2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Year Won</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>1908–09, 1947–48, 1962–63, 1976–77, 1982–83, 1984–85, 1989–90, 1993–94, 1995–96, 1998–99, 2003–04, 2015–16</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 3 -->
+                <div class="modal fade" id="modal-3">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Year Won</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>1967–68, 1998–99, 2007–08</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 4 -->
+                <div class="modal fade" id="modal-4">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Year Won</h5>
+                            </div>
+                            <div class="modal-body">
+                                <p>2016–17</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 section-header">
+                <h2>
+                    OUR HONOURS
+                </h2>
+            </div>
+
+            <div class="col-md-12 py-3 timeline">
+                <div class="container left">
+                    <div class="content">
+                        <!-- TEXT GOES HERE -->
+                        <h3> Premier League </h3>
+                        <h4>
+                            <a href="#" data-toggle="modal" data-target="#modal-1">20 times winner</a>
+                        </h4>
+                        <img class="honours-img" src="assets/honours/premier_league.png" alt="">
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <!-- TEXT GOES HERE -->
+                        <h3> FA Cups </h3>
+                        <h4>
+                            <a href="#" data-toggle="modal" data-target="#modal-2">12 times winner</a>
+                        </h4>
+                        <img class="honours-img" src="assets/honours/fa_cup.png" alt="">
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <!-- TEXT GOES HERE -->
+                        <h3> UEFA Champion League </h3>
+                        <h4>
+                            <a href="#" data-toggle="modal" data-target="#modal-3">3 times winner</a>
+                        </h4>
+                        <img class="honours-img" src="assets/honours/ucl.png" alt="">
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <!-- TEXT GOES HERE -->
+                        <h3> UEFA Europa League </h3>
+                        <h4>
+                            <a href="#" data-toggle="modal" data-target="#modal-4">1 time winner</a>
+                        </h4>
+                        <img class="honours-img" src="assets/honours/europa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-white">
+            <!-- Copyright -->
+            <div class="text-center p-3">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">This site was owned by Manchester United&copy.</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+</body>
+
+</html>
